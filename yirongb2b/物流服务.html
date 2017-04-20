@@ -78,16 +78,26 @@
                                                 </div>
                                                 <div >
                                         				<p class="pingtaihezuo-biaoti" style="margin-left:20px; margin-top:30px;">装货地点</p>
-                                                        <input type="text" name="货物名称" class="pingtaihezuokuang" style="width:300px;">
-                                                        <p class="pingtaihezuo-tisi">请输入运输出发地</p>
+                                                         <div data-toggle="distpicker" style="vertical-align:middle;display: inline-block">
+                                                            <select name="f_province" data-province></select>
+                                                            <select name="f_city" data-city></select>
+                                                            <select name="f_district" data-district></select>
+                                                            <input type="text" name="f_address">
+                                                        </div>
                                                         <p class="pingtaihezuo-biaoti" style="margin-left:66px;">货物重量</p>
                                                         <input type="text" name="货物名称" class="pingtaihezuokuang" style="width:100px;">
-                                                        <p class="pingtaihezuo-tisi">请输入货物重量 单位：吨</p>
+                                                        <select name="unit_code" id="">
+                                                            <option value="{$unit.code}">{$unit.name}</option>
+                                                        </select>
                                                 </div>
                                                 <div>
                                                 <p class="pingtaihezuo-biaoti" style="margin-left:20px; margin-top:30px;">卸货地点</p>
-                                                        <input type="text" name="货物名称" class="pingtaihezuokuang" style="width:300px;">
-                                                 <p class="pingtaihezuo-tisi">请输入目的地</p>
+                                                       <div data-toggle="distpicker" style="vertical-align:middle;display: inline-block">
+                                                            <select name="f_province" data-province></select>
+                                                            <select name="f_city" data-city></select>
+                                                            <select name="f_district" data-district></select>
+                                                            <input type="text" name="f_address">
+                                                        </div>
                                                  </div>
                                                  <div class="pintaihezuoanliu">
                                                  			<input type="submit" value="查运价" class="hezuopingtaianliu" style="background-color:#4582d5;">
