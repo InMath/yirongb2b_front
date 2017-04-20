@@ -250,7 +250,6 @@
 	
 /*.....采购需求搜索框.....*/
 .baikuang2{
-	display:none;
 	float:left;
 	width:400px;
 	height:400px;
@@ -310,6 +309,7 @@
 	
 /*.....供应市场搜索框.....*/
 .sousuo-sousuo{
+	display:none;
 	float:left;
 	width:400px;
 	height:400px;
@@ -819,7 +819,45 @@ body{
 	
 	
 	
-/*........供应市场.........*/	
+/*........供应市场供应商列表.........*/	
+.chanpingliebiao1{
+	width:232px;
+	height:288px;
+	background-color:#f7f7f7;
+	border:1px solid #eee;
+	position:relative;}
+.changpingmingcheng1{
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+	font-size:14px;
+	color:#6b6b6b;
+	position:absolute; 
+	left:10px;
+	bottom:30px;
+	width:160px;
+	height:20px;}
+.changpingmingcheng1:hover{
+	color:#f60;}
+.chanpingxinhao1{
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+	font-size:12px;
+	color:#ababab;
+	position:absolute;
+	bottom:10px;
+	left:10px;
+	width:80px;
+	height:20px;}
+.jiage1{
+	text-align:right;
+	display:inline-block;
+	width:100px;
+	height:20px;
+	position:absolute;
+	right:10px;
+	bottom:10px;}
 .gongsixingxiang{
 	width:300px;
 	height:290px; 
@@ -851,16 +889,38 @@ body{
 	color:#282828;}
 .gongsimingzi:hover{
 	color:#f60;}
-.fanye a{
-	font-size:14px;
+.pagination li span{
+	letter-spacing:normal;
+	display:inline-block;
+	width:30px;
+	height:30px;
+	border:1px solid #a5a5a5;}
+.pagination li{
+	display:inline-block;
+	line-height:30px;}
+.pagination a{
+	letter-spacing:normal;
 	color:#282828;
 	display:inline-block;
+	width:30px;
+	height:30px;
+	border:1px solid #a5a5a5;
+	line-height:30px;}
+.pagination a:hover{
+	color:#f60;
+	border:1px solid #f60;}
+.pagination{
+	letter-spacing:10px;
 	margin-top:30px;
-	margin-left:10px;}
-.fanye a:hover{
-	color:#f60;}
-.fanye{
 	text-align:center;}
+.pagination .active{
+	display:inline-block;
+	width:30px;
+	height:30px;
+	color:#f60;
+	border:1px solid #f60;}
+.pagination .active span{
+	border:none;}
 	
 	
 	
@@ -914,3 +974,95 @@ body{
 .pintaihezuoanliu input{
 	margin-left:100px;
 	margin-top:30px;}
+
+
+/************采购需求**************/
+.xuanzheleibie{
+	padding-left:20px;
+	height:30px;
+	border:1px solid #a0a0a0;
+	display:inline-block;
+	margin-left:16px;
+	width:200px;
+	background-color:#FFF;
+	border-radius:0px;}
+.a-upload {
+	position:relative;
+	left:17px;
+	top:8px;
+	display:inline-block;
+	width:80px;
+    padding: 4px 80px;
+    height: 26px;
+    line-height: 26px;
+    position: relative;
+    cursor: pointer;
+    color: #fff;
+    background: #3b83e5;
+    border: 1px solid #ddd;
+    border-radius:0px;
+    overflow: hidden;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1
+}
+
+.a-upload  input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer
+}
+
+.a-upload:hover {
+    background: #f60;
+    border-color: #ccc;
+    text-decoration: none
+}
+.fujianhezi{
+	margin-left:20px;
+	height:30px;
+	width:300px;
+	margin-left:700px;
+	margin-top:6px;}
+.fujiantu{
+	float:left;
+	width:30px;
+	height:30px;
+	background-color:#093;}
+.fujianmin{
+	margin-left:10px;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+	height:30px;
+	max-width:160px;
+	line-height:30px;
+	color:#282828;
+	font-size:14px;
+	float:left;}
+.fujianshanchu{
+	width:30px;
+	height:30px;
+	float:left;
+	background-image:url(../imges/shangchu.png);
+	background-repeat:no-repeat;
+	background-position:center;}
+.xuqiushuoming{
+	margin-left:19px;
+	margin-top:29px;
+	width:380px;
+	height:180px;
+	border:1px solid #959595;
+	white-space:pre-line;}
+.fabuxiqiu{
+	margin-left:700px;
+	margin-top:118px;
+	color:#FFF;
+	height:40px;
+	width:180px;
+	border:none;
+	background-color:#3b83e5;}
