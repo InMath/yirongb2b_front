@@ -929,6 +929,11 @@ body{
 
 
 /*...........物流服务.............*/
+.didianxuanzhe{
+	height:30px;
+	background-color:#FFF;
+	border:1px solid #a0a0a0;
+	border-radius:0px;}
 .pingtaihezuokuang{
 	padding-left:20px;
 	height:30px;
